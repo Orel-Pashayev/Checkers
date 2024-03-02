@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "541223440037",
+    "firebase_url": "https://checkers-8bcc8-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "checkers-8bcc8",
+    "storage_bucket": "checkers-8bcc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541223440037:android:0e5e3fc8b18aaf8bdf474c",
+        "android_client_info": {
+          "package_name": "com.example.checkers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541223440037-sckg7fcrgq2m5jmddmprj0dfnotk1crm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxHVpnf-nJaVpUxJkr3aFgDrWTsOcq9yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541223440037-sckg7fcrgq2m5jmddmprj0dfnotk1crm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

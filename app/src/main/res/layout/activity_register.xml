@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/checkers_wallpaper"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:text="Please enter email and password"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:background="@drawable/button_style"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:height="60dp"
+            android:width="250dp"
+            android:gravity="center"
+            android:layout_margin="35dp"
+            android:hint="Email"
+            android:id="@+id/et_user"
+            android:textSize="22sp"
+            android:background="@drawable/button_style"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minHeight="60dp"
+            android:width="250dp"
+            android:layout_margin="25dp"
+            android:hint="Password"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:id="@+id/et_pass"
+            android:textSize="22sp"
+            android:background="@drawable/button_style"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minHeight="60dp"
+            android:width="250dp"
+            android:background="@drawable/button_style" android:hint="Repeat Password"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:id="@+id/et_repass"
+            android:textSize="22sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:height="100dp"
+            android:width="250dp"
+            android:background="@drawable/button_style"
+            android:layout_margin="50dp"
+            android:id="@+id/bt_save"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:text="Register"
+            />
+
+    </LinearLayout>
+</LinearLayout>

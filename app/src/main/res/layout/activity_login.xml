@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/checkers_wallpaper"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:textColor="@color/black"
+            android:height="80dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Please enter email and password"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:height="60dp"
+            android:width="250dp"
+            android:layout_margin="50dp"
+            android:hint="Email"
+            android:id="@+id/et_user"
+            android:textSize="20sp"
+            android:background="@drawable/button_style"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minHeight="60dp"
+            android:width="250dp"
+            android:background="@drawable/button_style"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/et_pass"
+            android:textSize="20sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:height="100dp"
+            android:width="250dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_style"
+            android:id="@+id/bt_save"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:text="Login"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:height="40dp"
+            android:width="250dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/button_style"
+            android:id="@+id/bt_forgot"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="Forgot your password?\n Click/tap here."/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
